@@ -19,6 +19,8 @@
   text-shadow: 3px 3px 10px#c4c9ff, 3px 3px 10px #242130, -3px -3px 15px #3f3094;
 }
 
+/* ---------titles---------------- */
+
 .title {
   z-index: 999;
   color: white;
@@ -29,7 +31,7 @@
 .title1 {
   position: absolute;
   top: 60%;
-  left: 3%;
+  left: 10%;
 }
 .title2 {
   position: absolute;
@@ -41,6 +43,9 @@
   top: 80%;
   left: 30%;
 }
+
+/* ---------links---------------- */
+
 .link {
   z-index: 999;
   color: white;
@@ -73,15 +78,16 @@
   text-shadow: 5px 5px 10px #001a5b, -5px -5px 15px #001a5b;
 }
 
+/* ---------waves---------------- */
+
 .waves {
-  opacity: 0.1;
+  opacity: 0.5;
 }
-.waves1 {
+.waves {
   transform: rotate(180deg);
 }
-.waves2 {
-  padding-top: 100px;
-  transform: rotate(0deg);
+.waves svg {
+  fill: #0099ff;
 }
 
 /* ---------blue---------------- */
@@ -207,9 +213,9 @@
 
 .blob1 {
   position: absolute;
-  top: 100px;
-  left: 0px;
-  z-index: 11;
+  top: 170px;
+  left: 500px;
+  z-index: 100;
   width: 600px;
 }
 .blob1 svg {
@@ -217,9 +223,9 @@
 }
 .blob2 {
   position: absolute;
-  top: 100px;
-  left: 0px;
-  z-index: 12;
+  top: 170px;
+  left: 400px;
+  z-index: 100;
   width: 500px;
 }
 .blob2 svg {
