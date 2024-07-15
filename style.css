@@ -41,6 +41,17 @@
   text-shadow: 3px 3px 10px #000, -3px -3px 15px #000;
 }
 
+.link1 a,
+.link2 a {
+  color: white;
+  text-decoration: none;
+}
+.link1 a:hover,
+.link2 a:hover {
+  color: #c4c9ff;
+  text-shadow: 5px 5px 10px #001a5b, -5px -5px 15px #001a5b;
+}
+
 .waves {
   opacity: 0;
 }
