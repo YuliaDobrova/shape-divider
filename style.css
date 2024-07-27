@@ -60,8 +60,15 @@
   left: 20px;
   z-index: 999;
   color: rgb(70, 70, 70);
-  font-size: 20px;
+  font-size: 16px;
+  width: 180px;
   /* text-shadow: 3px 3px 10px#c4c9ff, 3px 3px 10px #978acc, -3px -3px 15px #3f3094; */
+}
+@media (min-width: 1100px) {
+  .wrapper p {
+    width: initial;
+    font-size: 20px;
+  }
 }
 
 /* ---------titles---------------- */
@@ -70,23 +77,49 @@
   z-index: 999;
   color: white;
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 30px;
   text-shadow: 3px 3px 10px#e5e7ff, 3px 3px 10px #242130, -3px -3px 15px #3f3094;
 }
+@media (min-width: 1100px) {
+  .title {
+    font-size: 50px;
+  }
+}
 .title1 {
+  position: absolute;
+  top: 55%;
+  left: 5%;
+}
+@media (min-width: 1100px) {
+  .title1 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+  }
+}
+.title2 {
   position: absolute;
   top: 60%;
   left: 10%;
 }
-.title2 {
-  position: absolute;
-  top: 70%;
-  left: 20%;
+@media (min-width: 1100px) {
+  .title2 {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+  }
 }
 .title3 {
   position: absolute;
-  top: 80%;
-  left: 30%;
+  top: 65%;
+  left: 15%;
+}
+@media (min-width: 1100px) {
+  .title3 {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+  }
 }
 
 /* ---------links---------------- */
@@ -95,9 +128,14 @@
   z-index: 999;
   color: white;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 18px;
   text-shadow: 3px 3px 10px #000, -3px -3px 15px #000;
   animation: textShadow 2500ms infinite alternate;
+}
+@media (min-width: 1100px) {
+  .link {
+    font-size: 25px;
+  }
 }
 
 @keyframes textShadow {
@@ -267,14 +305,27 @@
   right: 0;
   bottom: 0;
   z-index: 999;
+  width: 50%;
+}
+@media (min-width: 1100px) {
+  .photo {
+    width: initial;
+  }
 }
 
 .blob1 {
   position: absolute;
-  top: 350px;
-  left: 500px;
+  top: 250px;
+  left: 150px;
+  width: 200px;
   z-index: 100;
-  width: 400px;
+}
+@media (min-width: 1100px) {
+  .blob1 {
+    top: 350px;
+    left: 500px;
+    width: 400px;
+  }
 }
 .blob1 svg {
   fill: rgba(251, 115, 169, 0.25);
@@ -282,20 +333,34 @@
 .blob2 {
   position: absolute;
   top: 300px;
-  left: 400px;
+  left: 150px;
+  width: 200px;
   z-index: 100;
-  width: 300px;
+}
+@media (min-width: 1100px) {
+  .blob2 {
+    top: 300px;
+    left: 400px;
+    width: 300px;
+  }
 }
 .blob2 svg {
   fill: rgba(219, 115, 251, 0.25);
 }
 .blob3 {
   position: absolute;
-  top: 200px;
-  left: 500px;
+  top: 300px;
+  left: 100px;
+  width: 150px;
   z-index: 100;
-  width: 350px;
   transform: rotate(90deg);
+}
+@media (min-width: 1100px) {
+  .blob3 {
+    top: 200px;
+    left: 500px;
+    width: 350px;
+  }
 }
 .blob3 svg {
   fill: rgba(128, 200, 222, 0.25);
